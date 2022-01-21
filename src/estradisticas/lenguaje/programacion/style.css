@@ -1,0 +1,73 @@
+@font-face {
+	fx-font-family: 'Roboto Mono';
+    src: url(/fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+	fx-font-family: 'Roboto Regular';
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	fx-font-family: 'Roboto Bold';
+    src: url(/fonts/Roboto-Bold.ttf);
+}
+
+.button{
+	-fx-background-color: #1F4782;
+	-fx-background-radius: 7px;
+	-fx-text-fill : white;
+	-fx-font-family: 'Roboto Bold';
+}
+
+.button:hover{
+	-fx-background-color: #3A3A3A;	
+}
+
+.button:pressed{
+	-fx-background-color: #8C969C;
+	-fx-text-fill: #1d1d1d;
+}
+
+.choice-box{
+	-fx-background-color: #78b7bb;
+}
+
+.choice-box > .label {
+	-fx-text-fill: white;
+}
+
+.combo-box{
+	-fx-background-color: #fff1c1;
+}
+
+.text-field{
+	-fx-background-color: #808b97;
+	-fx-text-fill: #FFFFFF;
+}
+
+.text-area{
+	-fx-font-family:'Roboto Mono';
+	-fx-text-fill: #1F4782;
+}
+
+#texto{
+		-fx-background-color: white;
+	-fx-font-size:14;
+	-fx-font-family: 'Roboto Regular';
+	-fx-text-fill : rgb(17,16,16);
+	-fx-opacity: 0.7;
+	
+}
+
+#ano{
+	-fx-background-color: #fff1c1;
+}
+
+#ano > .label{
+	-fx-text-fill: black;
+}
+
+#lapregunta{
+	-fx-font-family: 'Roboto Bold';
+}
